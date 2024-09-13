@@ -31,7 +31,7 @@ def toss_coin(n):
 
     return mean
 
-number_of_trials = st.slider('Number of trails?', 1, 1000, 10)
+number_of_trials = st.slider('Number of trials?', 1, 1000, 10)
 start_button = st.button('Run')
 
 if start_button:
